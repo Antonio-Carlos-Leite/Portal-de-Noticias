@@ -5,6 +5,9 @@
 }
 
 :root {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
     --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
     --bg-color: #0F172A;
@@ -38,4 +41,18 @@ a:hover {
 
 h1, h2, h3 {
     font: inherit;
+}
+
+.container {
+    max-width: 1280px;
+    padding-inline: 3.2rem;
+    margin-inline: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
 }
